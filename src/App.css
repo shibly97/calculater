@@ -36,3 +36,132 @@
     transform: rotate(360deg);
   }
 }
+
+#cal{
+  display: grid;
+  grid-template-areas: "display display display display"
+                        "ce ce back back"
+                        "one two three adds"
+                        "four  five six subtracts"
+                        "seven eight nine divides"
+                        "zeros equals dots multiplys"
+                         ;
+  grid-gap: 2px;
+  font-size: 30px;
+}
+
+#cal{
+  width: 75vh;
+  height: 90vh;
+  margin: auto;
+}
+
+#display{
+  grid-area: display;
+  height: 50px;
+  font-size: 25px;
+  background-color: antiquewhite;
+  margin-top: 200px;
+}
+
+#bb{
+  border-radius: 30px;
+}
+
+#one{
+  grid-area: one;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#two{
+  grid-area: two;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#three{
+  grid-area: three;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#four{
+  grid-area: four;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#five{
+  grid-area: five;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#six{
+  grid-area: six;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#seven{
+  grid-area: seven;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+#eight{
+  grid-area: eight;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#nine{
+  grid-area: nine;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#zero{
+  grid-area: zeros;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#equals{
+  grid-area: equals;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#back{
+  grid-area: back;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#add{
+  grid-area: adds;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#subtract{
+  grid-area: subtracts;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#multiply{
+  grid-area: multiplys;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#divide{
+  grid-area: divides;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#decimal{
+  grid-area: dots;
+  border-radius: 100px;
+  font-size: 25px;
+}
+#clear{
+  grid-area: ce;
+  border-radius: 100px;
+  font-size: 25px;
+}
